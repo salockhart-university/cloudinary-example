@@ -1,0 +1,17 @@
+.file-list-container,
+.upload-remote-container,
+.upload-local-container {
+    min-width: 300px;
+    max-width: 25%;
+    float: left;
+}
+
+.file-list-container img {
+    width: 100%;
+}
+
+.file-list-item,
+#upload-remote-form,
+#upload-local-form {
+    margin: 20px
+}

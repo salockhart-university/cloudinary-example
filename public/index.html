@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSCI 4145 - Assignment #2</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="file-list-container">
+
+    List of Files:
+    <div id="file-list"></div>
+
+</div>
+
+<div class="upload-remote-container">
+
+    Upload Remote File:
+    <div id="upload-remote-form">
+        <input id="upload-remote-url" type="text" title="Remote URL">
+        <input id="upload-remote-button" type="button" title="Upload" value="Upload">
+    </div>
+
+</div>
+
+<div class="upload-local-container">
+
+    Upload Local File:
+    <form id="upload-local-form">
+        <input id="upload-local-file" type="file" title="Local File">
+        <input id="upload-local-button" type="submit" title="Upload" value="Upload">
+    </form>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
